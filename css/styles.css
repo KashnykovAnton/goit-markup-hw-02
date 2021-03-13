@@ -39,6 +39,10 @@ body {
   color: var(--accent-color);
 }
 
+.link.current {
+  color: var(--accent-color);
+}
+
 /* ГЛАВНАЯ */
 /* Лого (class="logo-first" возможно убрать, не нужен?) */
 .logo {
@@ -175,6 +179,7 @@ body {
 
 /* Кнопка на главной */
 .button-primary {
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -208,6 +213,7 @@ body {
 
 /* Фильтр */
 .portfolio-section .button-secondary {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
